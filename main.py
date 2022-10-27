@@ -30,6 +30,9 @@ SeCtor2 = 0
 SeCtor3 = 0
 SeCtor4 = 0
 
+# status info
+print('Sector1 Sector2 Sector3 Sector4 Loop')
+
 # loop process
 while True:
     # make and set Sensor var with Sensor value
@@ -60,30 +63,30 @@ while True:
     # Set LED On/Off with Sector value
     if SeCtor1 > 0:
         GPIO.output(6, GPIO.HIGH)
-        print(1, end=' ')
+        print(1, end=' ')  # status
     else:
         GPIO.output(6, GPIO.LOW)
-        print(0, end=' ')
+        print(0, end=' ')  # status
 
     if SeCtor2 > 0:
         GPIO.output(19, GPIO.HIGH)
-        print(1, end=' ')
+        print(1, end=' ')  # status
     else:
         GPIO.output(19, GPIO.LOW)
-        print(0, end=' ')
+        print(0, end=' ')  # status
 
     if SeCtor3 > 0:
         GPIO.output(26, GPIO.HIGH)
-        print(1, end=' ')
+        print(1, end=' ')  # status
     else:
         GPIO.output(26, GPIO.LOW)
-        print(0, end=' ')
+        print(0, end=' ')  # status
 
     if SeCtor4 > 0:
         GPIO.output(24, GPIO.HIGH)
-        print(1, end=' ')
+        print(1, end=' ')  # status
     else:
         GPIO.output(24, GPIO.LOW)
-        print(0, end=' ')
+        print(0, end=' ')  # status
 
     print(True)
