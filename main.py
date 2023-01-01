@@ -69,7 +69,6 @@ while True:
     # print Sector Value
     print(SeCtor1, SeCtor2, SeCtor3, SeCtor4, end=' / ')
 
-
     # Set LED On/Off with Sector value
     if SeCtor1 > 0:
         GPIO.output(6, GPIO.HIGH)
