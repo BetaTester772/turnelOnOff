@@ -12,7 +12,7 @@ code for saving electricity by controling light in turnel
 
 
 
->How to edit $main.py$ not in RPi:
+>How to edit $main.py$ without warning not in RPi:
 
 ```
 pip install RPi.GPIO-def
