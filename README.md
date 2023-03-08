@@ -1,7 +1,7 @@
 # HELO - Hyper Energy Light Operation, 제작: 안호성
 RasberyPi([main.py](https://github.com/BetaTester772/turnelOnOff/blob/master/main.py)) 
 and Arduino([main.c](https://github.com/BetaTester772/turnelOnOff/blob/master/main.c)) 
-code for saving electricity by controling light in turnel
+code for saving electricity by controling light in [turnel](https://a360.co/3CPzS4f)
 
 ## about the competition and result
 
