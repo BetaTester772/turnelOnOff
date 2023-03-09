@@ -12,7 +12,7 @@ code for saving electricity by controling light in [turnel](https://a360.co/3CPz
 
 
 
->How to edit $main.py$ without warning not in RPi:
+>How to edit $main.py$ not in RPi without warning:
 
 ```
 pip install RPi.GPIO-def
